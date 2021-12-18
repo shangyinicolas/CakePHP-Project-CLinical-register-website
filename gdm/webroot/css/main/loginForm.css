@@ -1,0 +1,74 @@
+#tab-btn {
+    display: flex;
+}
+.patient-tab,
+.clinician-tab {
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    background-color: #37474f;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    padding: 10px;
+}
+.active {
+    background-color: #eee;
+    color: #000;
+}
+.patient-box,
+.clinician-box {
+    width: 100%;
+    background-color: #eee;
+    padding: 20px 30px 30px 30px;
+    box-shadow: 2px 2px 5px #555;
+}
+.clinician-box {
+    display: none;
+}
+.inp {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    border: 2px solid #888;
+    border-bottom: 5px solid #888;
+    background-color: #fff;
+    color: #666;
+}
+.inp:focus {
+    outline: none;
+    border: 2px solid #555;
+    border-bottom: 5px solid #555;
+}
+.sub-btn {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #f44336;
+    color: #fff;
+    cursor: pointer;
+    border-bottom: 5px solid #444;
+}
+.sub-btn:focus {
+    outline: none;
+}
+.sub-btn:active {
+    border: none;
+    margin-top: 5px;
+}
+#forgot {
+    font-size: 20px;
+    color: #444;
+    text-decoration: none;
+    display: block;
+}
+h2 {
+    text-align: center;
+    padding-bottom: 15px;
+    font-variant: small-caps;
+    color: #333;
+    font-size: 30px;
+}
